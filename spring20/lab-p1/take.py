@@ -15,7 +15,7 @@ while True:
     # input
     choice = input("choose between 1 and 3 (or type 'q' to quit): ")
     if choice.strip() == "q":
-        print("quiting early")
+        print("quitting early")
         break
     choice = int(choice)
     assert(1 <= choice <= 3)
